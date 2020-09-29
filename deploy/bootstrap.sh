@@ -6,7 +6,7 @@ echo 'This is a one time script to build and bootstrap an Angular app in docker'
 docker-compose build
 
 # output list of images
-docker image ls | grep jira-tools
+docker image ls
 
 # create a container, new up an angular app then delete the container as it'll have a guid or similar as part of the
 # name
